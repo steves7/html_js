@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+body {
+    background-color: rgb(113, 108, 108);
+    color: white;
+    font-size: 25px;
+}
+
+.container { 
+    margin: 80px auto;
+    max-width: 680px;
+    width: 100%;
+}
+
+form{
+    margin-top: 40px;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button{
+    background-color: rgb(128, 71, 186);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(128, 71, 186);
+}
